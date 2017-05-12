@@ -1,0 +1,59 @@
+body {
+	background-color: rgba(128, 128, 128, 1.0)
+}
+
+h1 {
+	color: white;
+	background-color: blue;
+	border: 2px solid red;
+}
+
+p {
+	color: white;
+	background-color: #4277f4;
+	text-transform: capitalize;
+}
+
+.par2 {
+	background-color: rgba(244,66,215, 0.5);
+	text-transform: uppercase;
+}
+
+#par3 {
+	background-color: darkgreen;
+	text-transform: lowercase;
+}
+
+h4 {
+	background-color: white;
+	font-family: "Comic Sans MS", cursive, sans-serif;
+	text-decoration: underline;
+}
+
+li:nth-child(2) {
+	color: orange;
+}
+
+h2 {
+	text-transform: uppercase;
+	font-weight: bolder;
+}
+
+
+th {
+	color: purple;
+}
+
+td:nth-child(3) {
+	color: blue;
+	font-size: 2em;
+}
+
+input[required] {
+	border: 2px solid red;
+}
+
+input[type="submit"] {
+	width: 200px;
+	height: 100px;
+}
